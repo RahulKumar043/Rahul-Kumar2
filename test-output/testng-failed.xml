@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.practice.TestScript1">
+        <methods>
+          <include name="launch_Browser"/>
+          <include name="Close_Browser"/>
+          <include name="loginVtiger"/>
+          <include name="Tsc1"/>
+          <include name="logoutVtiger"/>
+          <include name="setup_JDBC_Report"/>
+          <include name="setup_JDBC_Close"/>
+        </methods>
+      </class> <!-- com.practice.TestScript1 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
